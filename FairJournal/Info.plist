@@ -27,8 +27,6 @@
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
-	<key>NSLocationAlwaysUsageDescription</key>
-	<string>Allow Location Access?</string>
 	<key>NSRemindersUsageDescription</key>
 	<string>Allow Reminders?</string>
 	<key>UIBackgroundModes</key>
