@@ -17,7 +17,7 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>$(MARKETING_VERSION)</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
@@ -26,9 +26,11 @@
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
+		<key>Privacy - Location Always Usage Description</key>
+		<string>Allow Location Access?</string>
+		<key>Privacy - Location When In Use Usage Description</key>
+		<string>Allow Location Access?</string>
 	</dict>
-	<key>NSRemindersUsageDescription</key>
-	<string>Allow Reminders?</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>remote-notification</string>
