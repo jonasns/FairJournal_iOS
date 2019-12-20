@@ -26,17 +26,13 @@
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
-		<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-		<string>We need your location to provide you the best contents</string>
-		<key>NSLocationAlwaysUsageDescription </key>
-		<string>We need your location to provide you the best contents</string>
-		<key>NSLocationWhenInUseUsageDescription</key>
-		<string>We need your location to provide you the best contents</string>
-		<key>Privacy - Location Always Usage Description</key>
-		<string>Allow Location Access?</string>
-		<key>Privacy - Location When In Use Usage Description</key>
-		<string>Allow Location Access?</string>
 	</dict>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>We need your location to provide you the best contents</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>We need your location to provide you the best contents</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We need your location to provide you the best contents</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>remote-notification</string>
