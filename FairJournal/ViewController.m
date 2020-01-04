@@ -9,7 +9,10 @@
 
 @property (weak, nonatomic) IBOutlet UIWebView *webViewsss;
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicator;
-
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *back;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *stop;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *refresh;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *forward;
 @end
 
 @implementation ViewController
