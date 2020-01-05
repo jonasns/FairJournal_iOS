@@ -42,28 +42,28 @@
                         </constraints>
                     </view>
                     <toolbarItems>
-                        <barButtonItem title="back" image="chevron.left" catalog="system" id="NMC-lP-j7z">
+                        <barButtonItem systemItem="rewind" id="NMC-lP-j7z">
                             <color key="tintColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
                                 <action selector="goBack" destination="qHe-Ho-Vx2" id="emj-fH-jZw"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem style="plain" systemItem="flexibleSpace" id="s4s-yE-CUk"/>
-                        <barButtonItem title="stop" image="stop" catalog="system" id="ECm-Q4-g7E">
+                        <barButtonItem systemItem="stop" id="ECm-Q4-g7E">
                             <color key="tintColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
                                 <action selector="stopLoading" destination="qHe-Ho-Vx2" id="eK1-Yw-TGf"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem style="plain" systemItem="flexibleSpace" id="hEX-Eb-3id"/>
-                        <barButtonItem title="refresh" image="arrow.clockwise" catalog="system" id="BGk-vA-4hF">
+                        <barButtonItem systemItem="refresh" id="BGk-vA-4hF">
                             <color key="tintColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
                                 <action selector="reload" destination="qHe-Ho-Vx2" id="kSO-WD-MxC"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem style="plain" systemItem="flexibleSpace" id="B5c-iW-oZw"/>
-                        <barButtonItem title="forward" image="chevron.right" catalog="system" id="Dk3-yT-2Gd">
+                        <barButtonItem systemItem="fastForward" id="Dk3-yT-2Gd">
                             <color key="tintColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
                                 <action selector="goForward" destination="qHe-Ho-Vx2" id="Jcl-lJ-yRm"/>
@@ -107,10 +107,4 @@
             <point key="canvasLocation" x="269.60000000000002" y="312.59370314842579"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="arrow.clockwise" catalog="system" width="56" height="64"/>
-        <image name="chevron.left" catalog="system" width="48" height="64"/>
-        <image name="chevron.right" catalog="system" width="48" height="64"/>
-        <image name="stop" catalog="system" width="64" height="56"/>
-    </resources>
 </document>
